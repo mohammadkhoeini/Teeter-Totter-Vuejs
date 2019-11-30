@@ -12,7 +12,7 @@
           />
         </label>
         <label for>
-          position :
+          position(arrow keys) :
           <input
             type="text"
             v-model="$store.state.circle.position"
@@ -30,7 +30,7 @@
           <input type="number" v-model="$store.state.triangle.weight" />
         </label>
         <label for>
-          position :
+          position(arrow keys) :
           <input
             type="text"
             v-model="$store.state.triangle.position"
@@ -48,7 +48,7 @@
           <input type="number" v-model="$store.state.rectangle.weight" />
         </label>
         <label for>
-          position :
+          position(arrow keys) :
           <input
             type="text"
             v-model="$store.state.rectangle.position"
